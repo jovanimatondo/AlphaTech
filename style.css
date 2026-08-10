@@ -32,7 +32,7 @@ header {
 }
 header h1 {
     margin: 0px;
-    padding-top: 175px;
+    padding-top: 28px;
     text-align: center;
     font-size: 6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -47,6 +47,10 @@ header h1 {
 }
 header h1:hover {
     color: white;
+}
+.logo {
+    width: 20%;
+    height: 120px;
 }
 header p {
     color: white;
