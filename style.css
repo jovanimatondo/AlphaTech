@@ -17,24 +17,22 @@
     --cor5: #021835;
 }
 body {
-    margin: 23px;
+    margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor1);
 }
 header {
     background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
-    border-bottom-left-radius: 15px;
-    margin: 0px 20px;
     padding: 0px 20px;
-    height: 565px;
+    height: 200px;
     
 }
 header h1 {
     margin: 0px;
-    padding-top: 28px;
+    padding-top: 28px   ;
     text-align: center;
-    font-size: 6em;
+    font-size: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
    /* text-align: center;
@@ -45,33 +43,17 @@ header h1 {
     */
     
 }
-header h1:hover {
-    color: white;
-}
-.logo {
-    width: 20%;
-    height: 120px;
-}
 header p {
     color: white;
-    width: 400px;
-    font-weight: bold;
-    margin: auto;
-    
+    font-weight: bold; 
     padding: 12px;
-    
     text-shadow: 7px 5px 10px black;
-}
-.quebra {
-    width: 500px;
-    margin: auto;
+    text-align: center;
 }
 nav {
-    background-color: var(--cor2);
-    border-top-right-radius: 15px;
-    margin: 0px 20px;
+    background-color: var(--cor4);
     padding: 7px;
-    text-align: right;
+    text-align: left;
     
 }
 nav a {
